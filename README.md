@@ -1,0 +1,2 @@
+# how-to-create-a-mind-map-layout-using-the-angular-diagram
+A quick start Angular project that shows how to create a Mind map Layout using the Angular Diagram component. This project includes a code snippet to customize the nodes and connectors in the layout and change its orientation. It also contains code to align the layout using horizontal and vertical spacing, and to add expand and collapse icons.
