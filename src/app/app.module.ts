@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DiagramModule } from '@syncfusion/ej2-angular-diagrams';
-import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
 
 @NgModule({
   declarations: [
@@ -11,8 +10,7 @@ import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
   ],
   imports: [
     BrowserModule,
-    DiagramModule,
-    ButtonModule
+    DiagramModule
   ],
   providers: [],
   bootstrap: [AppComponent]
