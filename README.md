@@ -2,7 +2,7 @@
 
 A quick start Angular project that shows how to create a Mind map Layout using the Angular Diagram component. This project includes a code snippet to customize the nodes and connectors in the layout and change its orientation. It also contains code to align the layout using horizontal and vertical spacing, and to add expand and collapse icons.
 
-Refer to the following documentation on the Syncfusion Angular Bullet Charts component: 
+Refer to the following documentation on the Syncfusion&reg; Angular Bullet Charts component: 
 https://ej2.syncfusion.com/angular/documentation/bullet-chart/getting-started
 
 Check out this online example of the Angular Bullet Charts component: 
