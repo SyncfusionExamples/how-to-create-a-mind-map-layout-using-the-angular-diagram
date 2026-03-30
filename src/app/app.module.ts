@@ -5,9 +5,7 @@ import { AppComponent } from './app.component';
 import { DiagramModule } from '@syncfusion/ej2-angular-diagrams';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [],
   imports: [
     BrowserModule,
     DiagramModule
