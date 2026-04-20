@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation, ViewChild } from '@angular/core';
-import { ConnectorModel, DataBinding, Diagram, MindMap, NodeModel, PointPortModel, DiagramComponent } from '@syncfusion/ej2-angular-diagrams';
+import { ConnectorModel,DiagramModule, DataBinding, Diagram, MindMap, NodeModel, PointPortModel, DiagramComponent } from '@syncfusion/ej2-angular-diagrams';
 import { mindMapData } from './data';
 import { DataManager } from '@syncfusion/ej2-data';
 Diagram.Inject(DataBinding, MindMap);
@@ -7,7 +7,9 @@ Diagram.Inject(DataBinding, MindMap);
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  standalone: true,
+  imports:[DiagramModule]
 })
 
 export class AppComponent {
